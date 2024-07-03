@@ -1,0 +1,210 @@
+* {
+  font-family: "DM Sans", sans-serif;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+.main-bg-img {
+  background-image: url(Image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  background-color: #2e1893;
+}
+.content-bg-img {
+  background-image: url(Image2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #2e1893;
+  min-width: 100%;
+}
+.content2-bg-img {
+  background-image: url(Image3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #2e1893;
+}
+.contact {
+  background-image: url(Image5.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #2e1893;
+}
+
+.Pricing {
+  background: url(Image6.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #2e1893;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar .navbar-nav .active {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+.border-grey {
+  border-color: rgba(255, 255, 255, 0.2) !important;
+}
+.paragraph {
+  max-width: 800px;
+}
+.main-btn {
+  background-color: #482be7 !important;
+  border: none !important;
+}
+main .main-btn:hover {
+  background-color: #331fa0 !important;
+}
+.acc-btn {
+  background-color: #25dac5 !important;
+  border-color: transparent !important;
+}
+.twitter-btn {
+  background-color: #1da1f2 !important;
+  border-color: transparent !important;
+}
+.illustrator {
+  max-width: 55%;
+  left: -25%;
+}
+.illustrator img {
+  width: 100%;
+}
+
+.icon img {
+  width: 100%;
+}
+.icon {
+  width: 45px;
+}
+
+.heading {
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 6px#000000b6;
+}
+
+.card-p {
+  letter-spacing: 0.5px;
+  text-shadow: 1px 1px 6px#000000ef;
+}
+.content-p {
+  font-weight: 400;
+  font-size: 1.4em;
+}
+
+.row .f-content {
+  max-width: 370px;
+}
+.f-nav a {
+  color: #a1a1b0;
+}
+
+.line::before {
+  content: "";
+  height: 1px;
+  position: absolute;
+  width: 33%;
+  right: 53%;
+  top: 50%;
+  background-color: #dde2e6;
+}
+.line::after {
+  content: "";
+  height: 1px;
+  position: absolute;
+  width: 33%;
+  left: 53%;
+  top: 50%;
+  background-color: #dde2e6;
+}
+
+.form-group input {
+  padding: 10px;
+}
+.bg-clr {
+  background-color: #2f1792;
+}
+.Testimonial {
+  background-color: #1e0e62;
+}
+.Testimonial .names {
+  letter-spacing: 2px;
+  color: #ffffff9d;
+}
+.test-card {
+  border: 2px solid #ffffff1e !important;
+  border-radius: 10px !important;
+  min-height: 200px;
+}
+.test-card .test-text {
+  line-height: 28px;
+}
+
+.call-to-action {
+  background-image: url(Image4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #2e1893;
+}
+.call-to-action .btn {
+  background-color: #25dac5;
+  border-color: transparent !important;
+}
+.call-to-action .btn:hover,
+.contact form .btn:hover {
+  background-color: #1ecab6;
+}
+
+.card-subtitle {
+  letter-spacing: 3px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.card-title {
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.contact form label {
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.contact form .btn {
+  background-color: #25dac5;
+  border: none;
+  font-size: 16px;
+  padding: 12px 40px;
+}
+
+.Pricing .pricing-list li {
+  margin-bottom: 0.9em;
+}
+.Pricing .pricing-list li i {
+  color: #18c967;
+  font-size: 12px;
+}
+.Pricing .special-btn {
+  background-color: #e93a7d;
+}
+.Pricing .special-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 768px) {
+  #features .icon {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
